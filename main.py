@@ -25,8 +25,8 @@ async def cmd_start(message: Message):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text="ПРОДАТЬ КАРТУ",
-                    url="https://t.me/sasha_teatr"   # или просто "t.me/sasha_teatr" — тоже работает
+                    text="ПРОДАТЬ ПУШКИНСКУЮ КАРТУ",
+                    url="https://t.me/sasha_links"   # или просто "t.me/sasha_teatr" — тоже работает
                 )
             ]
         ]
@@ -34,8 +34,8 @@ async def cmd_start(message: Message):
 
     # Отправляем сообщение с кнопкой
     await message.answer(
-        "Привет! 👋\n"
-        "Нажми кнопку ниже, чтобы перейти к продаже карты:",
+        "Здравствуйте! Приветствуем вас в сервисе по продаже пушкинских карт! 👋\n"
+        "Нажми кнопку ниже, чтобы перейти в диалог к менеджеру:",
         reply_markup=keyboard
     )
 
