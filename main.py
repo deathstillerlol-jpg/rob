@@ -26,7 +26,7 @@ async def cmd_start(message: Message):
             [
                 InlineKeyboardButton(
                     text="ПРОДАТЬ ПУШКИНСКУЮ КАРТУ",
-                    url="https://t.me/sasha_links"   # или просто "t.me/sasha_teatr" — тоже работает
+                    url="https://t.me/sasha_teatr"   # или просто "t.me/sasha_teatr" — тоже работает
                 )
             ]
         ]
