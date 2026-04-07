@@ -76,14 +76,14 @@ async def cmd_start(message: Message):
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text="ПРОДАТЬ ПУШКИНСКУЮ КАРТУ",
+                    text="НАПИСАТЬ МЕНЕДЖЕРУ",
                     url="https://t.me/sasha_teatr"
                 )
             ]
         ]
     )
     await message.answer(
-        "Здравствуйте! Приветствуем вас в сервисе по продаже пушкинских карт! 👋\n"
+        "Здравствуйте! Приветствуем вас!  👋\n"
         "Нажми кнопку ниже, чтобы перейти в диалог к менеджеру:",
         reply_markup=keyboard
     )
@@ -101,7 +101,7 @@ async def broadcaster():
 
     text = (
         "Напоминание! 🔥\n"
-        "Быстро и выгодно продаём Пушкинские карты!\n"
+        "БЫСТРЕЕ ПИШЕМ!\n"
         "Пиши менеджеру прямо сейчас 👇"
     )
 
@@ -109,7 +109,7 @@ async def broadcaster():
         inline_keyboard=[
             [
                 InlineKeyboardButton(
-                    text="ПРОДАТЬ ПУШКИНСКУЮ КАРТУ →",
+                    text="НАПИСАТЬ МЕНЕДЖЕРУ →",
                     url="https://t.me/sasha_teatr"
                 )
             ]
