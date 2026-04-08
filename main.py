@@ -45,7 +45,7 @@ async def broadcaster():
                 all_users.discard(user_id)
 
         logging.info(f"[РАССЫЛКА] ЗАВЕРШЕНО — отправлено: {sent}")
-        await asyncio.sleep(60)  # для теста — каждую минуту
+        await asyncio.sleep(1800)  # для теста — каждую минуту
 
 
 async def main():
