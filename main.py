@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import CommandStart
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 logging.basicConfig(level=logging.INFO)
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("5099436303:AAF4G_0Prx2G0CEpmspVrXHnhnWEE2SYVB0")
 if not TOKEN:
     raise ValueError("BOT_TOKEN не найден в переменных окружения!")
 bot = Bot(token=TOKEN)
