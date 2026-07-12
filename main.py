@@ -76,7 +76,7 @@ async def cmd_start(message: Message):
             [
                 InlineKeyboardButton(
                     text="НАПИСАТЬ МЕНЕДЖЕРУ",
-                    url="https://t.me/teatr_sasha"
+                    url="https://t.me/sasha_ticket"
                 )
             ]
         ]
@@ -109,7 +109,7 @@ async def broadcaster():
             [
                 InlineKeyboardButton(
                     text="НАПИСАТЬ МЕНЕДЖЕРУ →",
-                    url="https://t.me/teatr_sasha"
+                    url="https://t.me/sasha_ticket"
                 )
             ]
         ]
